@@ -1,6 +1,20 @@
 import React from 'react'
 import Slider from 'react-slick'
 
+function SampleNextArrow(props) {
+  const { className,style, onClick } = props
+  return (
+    <div
+      className={'slick-next'}
+      style={{...style, display: 'block'}}
+      onClick={onClick}
+    >
+      <img src="./assets/Icon/Arrow/nextArrow.png" alt="arrow_left"/>
+    </div>
+  )
+}
+
+
 class Home extends React.Component {
   render() {
     var settings = {
@@ -10,7 +24,8 @@ class Home extends React.Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       swipeToSlide: true,
-      arrows: true
+      // arrows: true,
+      nextArrow: <SampleNextArrow/>
     }
 
     return (
