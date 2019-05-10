@@ -93,3 +93,14 @@ body {
   padding: 20px;
   display: inline-block;
 }
+
+
+.slick-prev {
+  left: 30% !important;
+  color: black;
+  z-index: 1;
+}
+.slick-next {
+  right: 30% !important;
+  z-index: 1;
+}
