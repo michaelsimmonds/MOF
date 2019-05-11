@@ -17,9 +17,9 @@ The task was to build a content carousel module that is fully responsive and mat
 
 
 ## Process
-The first thing I did was set up webpack, which included the relevant loader rules and auto-refresh settings, and install the necessry dependencies. When this was done I added a script to the package.json which would launch my project on `yarn run serve`.
+The first thing I did was set up webpack, which included the relevant loader rules and auto-refresh settings, and install the necessary dependencies. When this was done I added a script to the package.json which would launch my project on `yarn run serve`.
 
-After this was done, I created the index.html, app.js and style.css files and checked everthing was working by console logging and displaying 'Hello World' in the browser. I was originally going to create the carousel using vanilla JavaScript, but after searching online and seeing what carousel plugins were available, I decided to use React and React Slick due to its in-built effect handling and responsive capabilites.
+After this, I created the index.html, app.js and style.css files and checked everthing was working by console logging and displaying 'Hello World' in the browser. I was originally going to create the carousel using vanilla JavaScript, but after searching online and seeing what carousel plugins were available, I decided to use React and React Slick due to its in-built effect handling and responsive capabilites.
 
 I constructed the main React App in the app.js file, then attached it to the 'root' div in the HTML using ReactDOM. I then set up the necessary path to my Home component where I created five divs, each with their own image and text information which would later constitute the slides in the carousel. I then imported the slider from React-Slick and input the relevant settings that enabled me to replicate the provided desktop design. Since arrows were part of the desktop design, I wrote two functions that let me render my own custom arrows rather than the defualt ones provided by React-Slick. At first these functions were at the top of the Home component, but I later made them into their own components and exported them into Home.
 
