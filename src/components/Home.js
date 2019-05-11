@@ -1,32 +1,7 @@
 import React from 'react'
 import Slider from 'react-slick'
-
-function SampleNextArrow(props) {
-  const { className,style, onClick } = props
-  return (
-    <div
-      className={'slick-next'}
-      style={{...style, display: 'block'}}
-      onClick={onClick}
-    >
-      <img src="./assets/nextArrow.png" alt="next arrow" className="arrow"/>
-    </div>
-  )
-}
-
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props
-  return (
-    <div
-      className={'slick-prev'}
-      style={{...style, display: 'block'}}
-      onClick={onClick}
-    >
-      <img src="./assets/prevArrow.png" alt="prev arrow" className="arrow"/>
-    </div>
-  )
-}
-
+import NextArrow from './NextArrow'
+import PrevArrow from './PrevArrow'
 
 class Home extends React.Component {
   render() {
@@ -38,8 +13,8 @@ class Home extends React.Component {
       centerPadding: '28%',
       slidesToScroll: 1,
       swipeToSlide: true,
-      nextArrow: <SampleNextArrow/>,
-      prevArrow: <SamplePrevArrow/>,
+      nextArrow: <NextArrow/>,
+      prevArrow: <PrevArrow/>,
       responsive: [
         {
           breakpoint: 1400,

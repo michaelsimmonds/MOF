@@ -137,6 +137,10 @@ body {
     right: 15% !important;
   }
 
+  #title {
+    margin: 30px;
+  }
+
 }
 
 @media only screen and (max-width: 580px) {
@@ -156,7 +160,6 @@ body {
     margin: auto;
     margin-top: -300px;
   }
-
 }
 
 @media only screen and (max-width: 450px) {
@@ -197,7 +200,7 @@ body {
     z-index: 1;
   }
   .slick-next {
-    right: 3% !important;
+    right: 2% !important;
     z-index: 1;
   }
 }
