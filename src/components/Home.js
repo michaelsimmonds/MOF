@@ -55,7 +55,7 @@ class Home extends React.Component {
           }
         },
         {
-          breakpoint: 420,
+          breakpoint: 450,
           settings: {
             slidesToShow: 1,
             centerMode: false
