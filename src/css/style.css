@@ -38,7 +38,7 @@ body {
 .slide .front-image {
   height: 350px;
   width: 350px;
-  padding: 20px;
+  padding: 10px;
   margin: auto;
 }
 
@@ -78,7 +78,8 @@ body {
   position: absolute;
   text-align: center;
   top: 80%;
-  width: 100%
+  width: 100%;
+  text-decoration: underline;
 }
 
 
@@ -120,4 +121,49 @@ body {
 .arrow {
   width: 25px;
   opacity: 0.4;
+}
+
+/****************** MEDIA QUERIES *******************/
+
+@media only screen and (max-width: 450px) {
+
+  .slide .front-image {
+    height: 260px;
+    width: 260px;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .slide .back-image {
+    position: relative;
+    z-index: -10;
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    margin-top: -260px;
+  }
+
+  #title {
+    padding: 30px 0 0 0;
+    font-size: 25px;
+    font-weight: 100;
+    width: 200px;
+    margin: auto;
+  }
+
+  #end-note {
+    margin-top: 50px;
+    width: 280px;
+    height: 50px;
+    font-size: 12px;
+  }
+
+  .slick-prev {
+    left: 1% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+  }
 }
