@@ -34,33 +34,55 @@ class Home extends React.Component {
       centerMode: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 3,
+      slidesToShow: 1,
+      centerPadding: '28%',
       slidesToScroll: 1,
       swipeToSlide: true,
       nextArrow: <SampleNextArrow/>,
       prevArrow: <SamplePrevArrow/>,
       responsive: [
         {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,
+          breakpoint: 1400,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1,
+            centerPadding: '30%'
+          }
+        },
+        {
+          breakpoint: 1100,
+          settings: {
+            slidesToShow: 1,
+            centerPadding: '20%'
+          }
+        },
+        {
+          breakpoint: 780,
+          settings: {
+            slidesToShow: 1,
+            centerPadding: '20%',
+            arrows: false
+          }
+        },
+        {
+          breakpoint: 680,
+          settings: {
+            slidesToShow: 1,
+            centerPadding: '15%',
+            arrows: false
+          }
+        },
+        {
+          breakpoint: 580,
+          settings: {
+            slidesToShow: 1,
+            centerPadding: '12%',
+            arrows: false
+          }
+        },
+        {
+          breakpoint: 420,
+          settings: {
+            slidesToShow: 1,
             centerMode: false
           }
         }
