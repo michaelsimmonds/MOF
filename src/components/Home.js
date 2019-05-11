@@ -8,7 +8,7 @@ class Home extends React.Component {
     var settings = {
       centerMode: true,
       infinite: true,
-      speed: 500,
+      speed: 600,
       slidesToShow: 1,
       centerPadding: '28%',
       slidesToScroll: 1,
