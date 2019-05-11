@@ -32,7 +32,7 @@ Below are three screenshots of my site with the dimensions the same as the desin
 ![Screenshot 2019-05-11 at 13 57 35](https://user-images.githubusercontent.com/43914382/57572864-5aa04200-7418-11e9-8428-9841500a3191.png)
 
 ### Tablet Design (768 by 1024)
-![Screenshot 2019-05-11 at 17 28 13](https://user-images.githubusercontent.com/43914382/57572878-84f1ff80-7418-11e9-806d-0d7296218dba.png)
+![Screenshot 2019-05-11 at 18 55 41](https://user-images.githubusercontent.com/43914382/57573358-6c84e380-741e-11e9-9977-d4e8a005522f.png)
 
 ### Mobile Design (320 by 646)
 ![Screenshot 2019-05-11 at 17 22 04](https://user-images.githubusercontent.com/43914382/57572880-92a78500-7418-11e9-919f-98b616a15472.png)
