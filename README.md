@@ -26,7 +26,7 @@ I constructed the main React App in the app.js file, then attached it to the 'ro
 Once my desktop version was set up, I started to add responsive break points using both the Slider settings and my own CSS media queries. One of the main difficulties in this project was ensuring that these two sets of breaking points married up together in an efficient way. Quite a few additional break points were required to ensure that the sliders and arrows would not clash and overlap. I used the Chrome DevTools 'toogle device' feature to regulary check what was happening as the size of the device changed.
 
 ## Outcome
-Below are three screenshots of my site with the dimensions mathing the desings provided. The carousel I built is fully responsive and works well across all screen sizes.
+Below are three screenshots of my site with the dimensions matching the desings provided. The carousel I built is fully responsive and works well across all screen sizes.
 
 ### Desktop Design
 ![Screenshot 2019-05-11 at 13 57 35](https://user-images.githubusercontent.com/43914382/57572864-5aa04200-7418-11e9-8428-9841500a3191.png)
