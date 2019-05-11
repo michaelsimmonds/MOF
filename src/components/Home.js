@@ -24,14 +24,14 @@ class Home extends React.Component {
           }
         },
         {
-          breakpoint: 1100,
+          breakpoint: 1250,
           settings: {
             slidesToShow: 1,
-            centerPadding: '20%'
+            centerPadding: '22%'
           }
         },
         {
-          breakpoint: 780,
+          breakpoint: 900,
           settings: {
             slidesToShow: 1,
             centerPadding: '20%',
@@ -73,7 +73,7 @@ class Home extends React.Component {
             <h2 className="country">cuba</h2>
             <h3 className="area">BAHAMAS & CARIBBEAN</h3>
             <h3 className="view-itinery">View Itinery</h3>
-            <img className="front-image" src="assets/Img4.png" alt="seascape"/>
+            <img className="front-image" src="assets/Img4.png" alt="turtle"/>
             <img className="back-image" src="assets/Img1.png" alt="seascape"/>
           </div>
 
@@ -82,7 +82,7 @@ class Home extends React.Component {
             <h3 className="area">BAHAMAS & CARIBBEAN</h3>
             <h3 className="view-itinery">View Itinery</h3>
             <img className="front-image" src="assets/Img5.png" alt="seascape"/>
-            <img className="back-image" src="assets/Img4.png" alt="seascape"/>
+            <img className="back-image" src="assets/Img4.png" alt="turtle"/>
           </div>
 
           <div className="slide">
