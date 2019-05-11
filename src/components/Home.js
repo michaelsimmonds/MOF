@@ -9,7 +9,20 @@ function SampleNextArrow(props) {
       style={{...style, display: 'block'}}
       onClick={onClick}
     >
-      <img src="./assets/Icon/Arrow/nextArrow.png" alt="arrow_left"/>
+      <img src="./assets/nextArrow.png" alt="next arrow" className="arrow"/>
+    </div>
+  )
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props
+  return (
+    <div
+      className={'slick-prev'}
+      style={{...style, display: 'block'}}
+      onClick={onClick}
+    >
+      <img src="./assets/prevArrow.png" alt="prev arrow" className="arrow"/>
     </div>
   )
 }
@@ -24,8 +37,8 @@ class Home extends React.Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       swipeToSlide: true,
-      // arrows: true,
-      nextArrow: <SampleNextArrow/>
+      nextArrow: <SampleNextArrow/>,
+      prevArrow: <SamplePrevArrow/>
     }
 
     return (
@@ -72,8 +85,6 @@ class Home extends React.Component {
             <img className="front-image" src="assets/Img1.png" alt="seascape"/>
             <img className="back-image" src="assets/Img2.png" alt="seascape"/>
           </div>
-
-
 
         </Slider>
         <h3 id="end-note">View all destinations</h3>

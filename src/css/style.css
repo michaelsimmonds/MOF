@@ -54,7 +54,7 @@ body {
 .slide .country {
   color: white;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
   position: absolute;
   text-align: center;
   top: 40%;
@@ -103,7 +103,7 @@ body {
 }
 
 .slick-prev {
-  left: 30% !important;
+  left: 33% !important;
   color: black;
   z-index: 1;
 }
@@ -115,4 +115,9 @@ body {
 /* this gets rid of thier arrow */
 .slick-prev:before, .slick-next:before {
   display: none;
+}
+
+.arrow {
+  width: 25px;
+  opacity: 0.4;
 }
